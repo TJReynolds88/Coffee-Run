@@ -5,10 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Run</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 </head>
 
-<body>
+<body class="container">
+    <header>
+        <h1>Coffee Run</h1>
+    </header>
+    <section>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <form data-coffee-orders="form">
+                    <div class="from-group">
+                        <label>Coffee Order</label>
+                        <input class="form-control" name="coffee">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
     <script src="scripts/datastore.js" charset="utf-8"></script>
+    <script src="scripts/truck.js" charset="utf-8"></script>
+    <script src="scripts/main.js" charset="utf-8"></script>
 </body>
 
 </html>
